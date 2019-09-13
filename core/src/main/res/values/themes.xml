@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+  <!-- Base application theme. -->
+  <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+    <item name="colorPrimary">@color/colorPrimary</item>
+    <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+    <item name="colorAccent">@color/colorAccent</item>
+    <item name="android:colorBackground">@color/colorBackground</item>
+    <item name="colorError">@android:color/holo_red_dark</item>
+    <!--<item name="android:windowDrawsSystemBarBackgrounds">true</item>-->
+    <!--<item name="fontFamily">@font/roboto</item>
+    <item name="android:fontFamily">@font/roboto</item>-->
+    <!--<item name="materialButtonStyle">@style/GlobalMaterialButtonStyle</item>-->
+    <!--<item name="bottomNavigationStyle">@style/BottomNavigationViewStyle</item>-->
+    <!--<item name="drawerArrowStyle">@style/GlobalDrawerArrowStyle</item>-->
+  </style>
+
+  <!-- Splash Activity theme. -->
+  <style name="SplashTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+    <item name="android:windowNoTitle">true</item>
+    <item name="android:windowActionBar">false</item>
+    <item name="android:windowFullscreen">true</item>
+    <item name="android:windowContentOverlay">@null</item>
+  </style>
+
+</resources>

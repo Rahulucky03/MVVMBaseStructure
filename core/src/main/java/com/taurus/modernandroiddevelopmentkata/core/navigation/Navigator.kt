@@ -1,0 +1,3 @@
+package com.taurus.modernandroiddevelopmentkata.core.navigation
+
+interface Navigator
